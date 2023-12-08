@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&family=Poppins&display=swap');
+
+
+*{  
+    /* reset css, mto importante para previnir futuros bugs */
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif
+}
+
+
+body{
+    font-size: 100%;
+}
+
+
+
+@media(max-width: 380px){
+    #logo{
+        width: 100px !important;
+        height: 95px !important;
+    }
+}
+
+#logo{
+    width: 200px;
+    height: 190px;
+    padding-bottom: 40px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: #212332;
+    height: auto;
+}
+
+.container{
+    background-color: antiquewhite;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.tittle-wellcome{
+    display: flex;
+    color: #FF4950;
+    font-size: 1,8em;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+
+
